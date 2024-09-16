@@ -14,6 +14,6 @@ func main() {
 
 	routes.MapRoutes(server, db)
 
-	http.ListenAndServe(":3000", server)
+	http.ListenAndServe(":8080", server)
 
 }
