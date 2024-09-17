@@ -25,10 +25,10 @@ To run this project, you need to have the following installed:
    git clone https://github.com/tsaqiffatih/crud-employee-go.git
    ```
 
-2. Navigate to the project directory:
+2. Initialize a Go module: :
 
    ```bash
-   cd crud-employee-go
+   go mod init github.com/tsaqiffatih/crud-employee-go
    ```
 
 3. Install the dependencies (if any):
