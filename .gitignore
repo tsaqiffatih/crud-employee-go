@@ -9,10 +9,11 @@
 *.out
 *.log
 
-# Go-specific files
-*.mod
-*.sum
+# Vendor directory (if not using Go modules)
 vendor/
+
+# Go build cache
+/pkg/
 
 # IDE/editor specific files
 .vscode/
